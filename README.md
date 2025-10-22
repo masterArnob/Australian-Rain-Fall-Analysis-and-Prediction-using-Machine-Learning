@@ -49,10 +49,8 @@ By leveraging historical meteorological data such as temperature, humidity, wind
 |-------|------|----------|--------------------|
 | Logistic Regression | Linear | Baseline classification model | 80% |
 | Decision Tree Classifier | Non-linear | Interpretability and feature analysis | 82% |
-| Random Forest Classifier | Ensemble | Improved performance and robustness | 85% |
 | K-Nearest Neighbors (KNN) | Distance-based | Simplicity and comparability | 78% |
 | Support Vector Machine (SVM) | Margin-based | High-dimensional separation | 83% |
-| Gradient Boosting | Ensemble | Optimal bias-variance tradeoff | 86% |
 
 *(The best-performing model achieved ~86% accuracy on the test data.)*
 
@@ -63,60 +61,20 @@ Each model was assessed using:
 - **Accuracy Score**
 - **Precision / Recall / F1-Score**
 - **Confusion Matrix**
-- **ROC-AUC Curve**
-
-Visual comparisons were made between models to identify performance trade-offs and optimal hyperparameters.
+- **Classification Report**
 
 ---
 
-## 🔬 Insights and Findings
-- **Humidity and Rainfall:** High humidity levels (>80%) strongly correlate with rainfall events.  
-- **Wind Direction:** Sudden shifts in wind gust direction often precede rainfall.  
-- **Temperature & Pressure:** Low pressure and high temperature variations are leading predictors.  
-- Ensemble models like **Random Forest** and **Gradient Boosting** consistently outperformed simpler models.
 
 ---
 
-## 🧠 Technologies and Tools Used
-| Category | Tools / Libraries |
-|-----------|------------------|
-| Programming | Python (3.9+) |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Machine Learning | Scikit-learn |
-| Balancing | imbalanced-learn (SMOTE) |
-| Development | Jupyter Notebook |
 
 ---
 
-## 🚀 How to Run the Project
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/<your-username>/Australian-Rainfall-Prediction.git
-cd Australian-Rainfall-Prediction
-```
-
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Run the Notebook
-```bash
-jupyter notebook "Australian Rain Fall Analysis and Prediction using Machine Learning.ipynb"
-```
 
 ---
 
-## 📁 Project Structure
-```
-├── data/
-│   └── weatherAUS.csv
-├── Australian Rain Fall Analysis and Prediction using Machine Learning.ipynb
-├── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -140,4 +98,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-### ⭐ If you found this project useful, please give it a star and share it with others!
