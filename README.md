@@ -44,16 +44,15 @@ Key objectives include:
 
 ## 🤖 Machine Learning Models Implemented
 
-| Model | Type | Accuracy |
-|-------|------|-----------|
-| Logistic Regression | Linear | 80% |
-| Decision Tree | Non-linear | 82% |
-| Random Forest | Ensemble | 85% |
-| K-Nearest Neighbors | Distance-based | 78% |
-| Support Vector Machine | Margin-based | 83% |
-| Gradient Boosting | Ensemble | 86% |
+| Model | Accuracy |
+|-------|-----------|
+| Logistic Regression | 80.61% |
+| Decision Tree | 74.05% |
+| Random Forest | 81.68% |
+| K-Nearest Neighbors | 79.69% |
+| Support Vector Machine | 81.68% |
 
-> 🏆 **Best Model:** Gradient Boosting Classifier (86% accuracy)
+> 🏆 **Best Model:** Random Forest and SVM (81.68% accuracy)
 
 ---
 
@@ -62,75 +61,17 @@ Key objectives include:
 - Accuracy Score  
 - Precision, Recall, F1-Score  
 - Confusion Matrix  
-- ROC-AUC Curve  
+- Classification Report
 
 Model performance comparison visuals were created to determine the most reliable classifier.
 
 ---
 
-## 🌦️ Insights & Findings
 
-- **Humidity** was the strongest indicator of rainfall probability.  
-- **Low pressure and high temperature** correlated with rainfall events.  
-- **Random Forest and Gradient Boosting** outperformed simpler algorithms.  
-- Feature correlation analysis helped identify key predictive attributes.
 
----
 
-## 📄 Report & Visualization Previews
 
-<p align="center">
-  <a href="Assets/preview_report.png">
-    <img src="Assets/preview_report.png" alt="Report Preview" width="300" style="border-radius:8px; margin-right:20px;">
-  </a>
-  <a href="Assets/preview_results.png">
-    <img src="Assets/preview_results.png" alt="Results Preview" width="380" style="border-radius:8px;">
-  </a>
-</p>
 
-<p align="center">
-  <a href="Assets/preview_report.png" style="text-decoration: none; color: inherit;">
-    <strong>📄 View Report</strong>
-  </a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="Assets/preview_results.png" style="text-decoration: none; color: inherit;">
-    <strong>📊 View Results</strong>
-  </a>
-</p>
-
----
-
-## 🚀 How to Run the Project
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/<your-username>/Australian-Rainfall-Prediction.git
-cd Australian-Rainfall-Prediction
-```
-
-### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Run the Notebook
-```bash
-jupyter notebook "Australian Rain Fall Analysis and Prediction using Machine Learning.ipynb"
-```
-
----
-
-## 📁 Project Structure
-```
-├── data/
-│   └── weatherAUS.csv
-├── Assets/
-│   ├── preview_report.png
-│   ├── preview_results.png
-├── Australian Rain Fall Analysis and Prediction using Machine Learning.ipynb
-├── requirements.txt
-└── README.md
-```
 
 ---
 
