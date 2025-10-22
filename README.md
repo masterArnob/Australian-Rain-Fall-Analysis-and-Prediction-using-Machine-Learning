@@ -45,12 +45,12 @@ By leveraging historical meteorological data such as temperature, humidity, wind
 
 ## 🤖 Machine Learning Models Implemented
 
-| Model | Type | Purpose | Accuracy (Approx.) |
+| Model | Type | Purpose | Accuracy|
 |-------|------|----------|--------------------|
-| Logistic Regression | Linear | Baseline classification model | 80% |
-| Decision Tree Classifier | Non-linear | Interpretability and feature analysis | 82% |
-| K-Nearest Neighbors (KNN) | Distance-based | Simplicity and comparability | 78% |
-| Support Vector Machine (SVM) | Margin-based | High-dimensional separation | 83% |
+| Logistic Regression | Linear | Baseline classification model | 80.61% |
+| Decision Tree Classifier | Non-linear | Interpretability and feature analysis | 74.05% |
+| K-Nearest Neighbors (KNN) | Distance-based | Simplicity and comparability | 79.69% |
+| Support Vector Machine (SVM) | Margin-based | High-dimensional separation | 81.68% |
 
 *(The best-performing model achieved ~86% accuracy on the test data.)*
 
@@ -66,14 +66,6 @@ Each model was assessed using:
 ---
 
 
----
-
-
----
-
-
-
----
 
 
 ---
